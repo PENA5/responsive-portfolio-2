@@ -22,6 +22,8 @@ body {
     margin: 0 auto;
     clear: both;
   }
+
+
   
   h1,
   h2,
@@ -39,7 +41,7 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: black;
   }
   
   h1 {
@@ -131,13 +133,14 @@ body {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
     text-align: center;
+    margin-left: 20%;
 
   
   }
   
   .main-section {
     float: left;
-    width: 80%;
+    width: 100%;
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
@@ -154,6 +157,54 @@ body {
   /*  background: #ffffff; */
     border: 1px solid #dddddd;
   }
+
+  /* home page */
+  .home-section {
+    float: left;
+    width: 80%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+  /*  background: #ffffff; */
+    margin-top: 10%;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 12px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .button:hover {opacity: 1}
+
+  #home-title {
+    text-size-adjust: 24px;
+
+
+  }
+
+  /* about page */
+
+  #about-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+    float: left;
+    margin-left: 5%;
+  }
+
+
+  #about-social-contact {
+    color: black;
+    width: 5%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 3%;
+    
+  }
+
   
   /* portfolio page */
   
@@ -163,6 +214,7 @@ body {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    margin-left: 5%;
   }
   
   .work:nth-child(even) {
@@ -185,7 +237,7 @@ body {
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background: rgb(110, 180, 110);
     border-bottom: 0;
   }
 
