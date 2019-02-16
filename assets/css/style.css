@@ -3,7 +3,11 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background-image: url("../images/countryside-dirt-road-grass-154800.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
   }
   
   * {
@@ -59,7 +63,7 @@ body {
     margin: 0 0 30px;
     overflow: auto;
     color: #ffffff;
-    background: #ffffff;
+  /*  background: #ffffff; */
     border-bottom: 2px solid #cccccc;
   }
   
@@ -71,10 +75,10 @@ body {
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: #ffffff;
+    color: black;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+   /* background: #4aaaa5; */
   }
   
   nav {
@@ -87,7 +91,7 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
+    color: black;
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
@@ -105,8 +109,6 @@ body {
     color: #ffffff;
     color: #cccccc;
     text-align: center;
-    background: #666666;
-    border-top: 8px solid #4aaaa5;
     height: 50px;
   }
   
@@ -122,15 +124,34 @@ body {
   #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
+    margin-left: 5%;
+  }
+
+  #main-container1 {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+    text-align: center;
+
+  
   }
   
   .main-section {
     float: left;
-    width: 100%;
+    width: 80%;
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+
+  .main-section1 {
+    float: left;
+    width: 80%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+  /*  background: #ffffff; */
     border: 1px solid #dddddd;
   }
   
@@ -167,6 +188,8 @@ body {
     background: #4aaaa5;
     border-bottom: 0;
   }
+
+
   
   .auth-image {
     float: left;
@@ -177,6 +200,11 @@ body {
   }
   
   /* contact page */
+
+  #contact-form {
+    width: 80%;
+
+  }
   
   #contact-form ul {
     margin-bottom: 20px;
@@ -214,6 +242,15 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+  }
+
+  #social-contact {
+    color: black;
+    width: 10%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 3%;
+    
   }
   
   @media screen and (max-width: 980px){
